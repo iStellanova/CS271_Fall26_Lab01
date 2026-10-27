@@ -48,19 +48,23 @@ sum_loop:
     // Syntax: ADD Xd, Xn, Xm
 
     // YOUR CODE HERE
+    ADD X4, X0, X4
 
     // TODO #2: Increment the iteration count in X5 using X1
     // Syntax: ADD Xd, Xn, Xm
+    ADD X5, X1, X5
 
     // YOUR CODE HERE
 
     // TODO #3: Decrement X0 by subtracting X1, and set flags
     // Syntax: SUBS Xd, Xn, Xm
+    SUBS X0, X1, X0
 
     // YOUR CODE HERE
 
     // TODO #4: Branch back to sum_loop if X0 is NOT zero
     // Syntax: B.NE label
+    B.NE sum_loop
 
     // YOUR CODE HERE
 
