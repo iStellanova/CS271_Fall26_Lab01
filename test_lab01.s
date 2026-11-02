@@ -58,7 +58,7 @@ sum_loop:
 
     // TODO #3: Decrement X0 by subtracting X1, and set flags
     // Syntax: SUBS Xd, Xn, Xm
-    SUBS X0, X1, X0
+    SUBS X0, X0, X1
 
     // YOUR CODE HERE
 
